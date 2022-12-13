@@ -21,7 +21,8 @@ canvasSketch(() => {
     width,
     height
   }) => {
-    clear();
+    // clear();
+    background(255);
     radialGradient(
       width / 2, height / 2, width / 2, //Start pX, pY, start circle radius
       width / 2, height / 2, 1, //End pX, pY, End circle radius

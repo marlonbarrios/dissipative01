@@ -30,6 +30,7 @@ canvasSketch(() => {
     );
     ellipse(width / 2, height / 2, width, height);
   }
+  
 
   function radialGradient(sX, sY, sR, eX, eY, eR, colorS, colorE) {
     let gradient = drawingContext.createRadialGradient(
